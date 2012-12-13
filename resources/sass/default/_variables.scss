@@ -1,0 +1,107 @@
+// Core
+// --------------
+$compile-all: false;
+$supports-border-radius: true;
+$supports-gradients: true;
+$base-color: #FFF;
+$font-size: 14px;
+$font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+// Layout
+// --------------
+$border-layout-ct-background: transparent;
+
+
+// Toolbar
+// --------------
+$toolbar-horizontal-spacing: 20px;
+$toolbar-vertical-spacing: 10px;
+$toolbar-footer-vertical-spacing: 10px;
+
+
+// Window
+// --------------
+// $window-base-color: $base-color !default;
+// 
+$window-border-radius: 0;
+// $window-border-width: 1px !default;
+$window-border-color: #FFF;
+$window-inner-border-width: null;
+// $window-inner-border-color: adjust-color($window-base-color, $hue: 2.667deg, $saturation: 9.662%, $lightness: 11.373%) !default;
+$window-background-color: #FFF;
+// 
+$window-body-border-width: 0;
+// $window-body-border-style: solid !default;
+// $window-body-border-color: adjust-color($window-base-color, $hue: 0.844deg, $saturation: 7.644%, $lightness: -8.627%) !default;
+// $window-body-background-color: adjust-color($window-base-color, $hue: 3.188deg, $saturation: 0.542%, $lightness: 7.843%) !default;
+// $window-body-color: #000 !default;
+// 
+// $window-header-padding: 5px 5px 0 !default;
+// $window-header-font-size: ceil($font-size * .9) !default; //11px
+// $window-header-line-height: 15px !default;
+$window-header-color: #333;
+// $window-header-font-weight: bold !default;
+
+// Tabs
+// --------------
+$tab-base-color: transparent;
+$tab-base-color-over: transparent;
+$tab-base-color-active: #EBEBEB;
+$tab-base-color-disabled: transparent;
+
+$tab-border-color: transparent;
+$tab-border-color-over: transparent;
+$tab-border-color-active: transparent;
+$tab-border-color-disabled: transparent;
+
+$tab-inner-border: false;
+$tab-inner-border-color: transparent;
+
+$tab-color: #666;
+$tab-color-over: #000;
+$tab-color-active: $tab-color;
+$tab-color-disabled: #CCC;
+
+$tabbar-strip-border-color: transparent;
+$tabbar-strip-background-color: transparent;
+$tabbar-top-strip-border-width: 0;
+$tabbar-strip-height: 0;
+
+$tabbar-background-gradient: false;
+$tab-background-gradient: false;
+$tab-background-gradient-over: false;
+$tab-background-gradient-active: false;
+$tab-background-gradient-disabled: false;
+
+$tab-height: 30px;
+$tab-spacing: 20px;
+
+$tab-font-size: 14px;
+$tab-font-weight: 300;
+
+
+// Grid
+// -------------------------
+$grid-base-color: #F9F9F9;
+$grid-header-background-color: #FFF;
+$grid-header-background-gradient: 'plain';
+$grid-header-border-color: transparent;
+$grid-header-over-border-color: transparent;
+$grid-header-over-background-color: transparent;
+$grid-header-over-background-gradient: 'plain';
+$grid-header-line-height: 35px;
+$grid-header-padding: 0 6px;
+$grid-header-trigger-height: 22px !default;
+$grid-header-trigger-width: 14px !default;
+$grid-header-color: #555555;
+$grid-row-cell-background: transparent;
+$grid-row-cell-alt-background: transparent;
+$grid-row-wrap-border-color: #e4e4e4;
+$grid-cell-inner-padding-top: 10px;
+$grid-cell-inner-padding-horizontal: 6px;
+$grid-cell-inner-padding-bottom: 10px;
+$grid-row-cell-over-border-color: $grid-row-wrap-border-color;
+$grid-row-cell-selected-border-style: solid;
+$grid-row-cell-selected-border-color: $grid-row-wrap-border-color;
+$grid-row-cell-selected-background-color: #e4f1f9;

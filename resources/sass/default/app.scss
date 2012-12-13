@@ -1,0 +1,53 @@
+@import 'variables';
+@import 'compass';
+@import 'ext4/default/all';
+
+// Your custom code goes here...
+@import 'misc/icons';
+@import 'views/feedlist';
+@import 'views/preview';
+@import 'views/viewer';
+@import 'views/viewport';
+@import 'widgets/tabbar';
+@import 'widgets/toolbar';
+
+/**
+ * Other styles
+ */
+.feed-picker-url {
+    float: left;
+    width: 425px;
+}
+.feed-picker-title {
+/*    float: left;*/
+    color: #777;
+    font-size: 10px;
+}
+
+
+
+.topic {
+    padding: 2px 0 0 20px;
+    background:transparent url(../../images/post.gif) no-repeat;
+}
+
+.topic b {
+    font-family: tahoma, verdana;
+    display: block;
+    color: #333;
+}
+
+.author {
+    color: #333
+}
+
+.post-date {
+    font-weight:bold;
+    color:#333;
+}
+
+.feed-grid .x-grid-rowbody {
+    margin: 5px 20px 10px 25px !important;
+    color: #555;
+    font-size: 11px;
+}

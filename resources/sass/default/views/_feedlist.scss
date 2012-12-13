@@ -1,0 +1,15 @@
+.feed-list-item {
+  padding: 10px 10px 10px 35px;
+  font-size: 16px;
+  background: #EDF3F8 url(../../images/rss.gif) no-repeat 10px center;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.feed-list-item-hover {
+  text-decoration: underline
+}
+
+.feed-list .x-item-selected {
+    background-color: #FFF;
+}

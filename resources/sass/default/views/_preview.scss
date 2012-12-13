@@ -1,0 +1,53 @@
+.articlepreview { 
+  background: #E0E6EB;
+  
+  .x-panel-body {
+      background:#fff;
+      color:#222;
+      font:normal 12px tahoma,verdana,arial,sans-serif;
+  }
+
+  .x-panel-body p {
+      line-height:18px;
+      margin:8px 0;
+  }
+
+  .x-panel-body ul {
+      margin-left:18px;
+  }
+
+  .x-panel-body ul li {
+      display:list-item;
+      list-style-image:none !important;
+      list-style-position:outside !important;
+      list-style-type:disc !important;
+      margin-left:18px;
+  }
+
+  .x-panel-body pre, .x-panel-body code {
+      background:#f1f1f1;
+      display:block;
+  }
+
+  .x-panel-body h4.post-author {
+      font-weight:normal;
+      color:#555;
+      font-size:11px;
+  }
+  .x-panel-body span.post-date {
+      font-weight:normal;
+      color:#555;
+      float:right;
+      font-size:11px;
+  }
+  
+  .x-panel-body div.post-data {
+      padding:5px;
+      border-bottom:1px solid #dadadb;
+      margin: 5px;
+  }
+  
+  .x-panel-body div.post-body {
+      padding:10px;
+  }
+}

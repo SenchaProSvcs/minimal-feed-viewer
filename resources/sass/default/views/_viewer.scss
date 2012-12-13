@@ -1,0 +1,25 @@
+.viewer {
+  background: #FFF;
+}
+
+.viewer-tabbar {
+  background-color: #FFF;
+  background-image: none;
+  padding: 20px 0 10px 0;
+  .x-tab-bar-body {
+    border: 0;
+  }
+  
+  .main-tab {
+    .x-tab-inner {
+      font-size: 22px;
+      color: #333;
+    }
+    &.x-tab-over .x-tab-inner {
+      text-decoration: underline;
+    }
+    &.x-tab-top-active {
+      background-color: transparent;
+    }
+  }
+}
